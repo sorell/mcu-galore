@@ -10,4 +10,4 @@ VPATH := . ../../lib/STM8L10x_StdPeriph_Lib/Libraries/STM8L10x_StdPeriph_Driver/
 all: $(TARGET)
 
 -include ../../toolchain/sdcc-4.0.0-dflt.in
--include ../apps.mk
+-include ../stm8-apps.mk
